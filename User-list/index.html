@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX"
+        crossorigin="anonymous"
+        />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css"/>
+        <title>User List</title>
+    </head>
+    <body>
+        <header class="mb-5">
+            <div class="container mt-5">
+                <div class="d-flex justify-content-end">
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-sm" data-bs-theme-value="dark">
+                            Dark
+                        </button>
+                        <button class="btn btn-light btn-sm" data-bs-theme-value="light">Light</button>
+                    </div>
+                </div>
+                <h1 class="mb-4">Users</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" name="" id="" class="form-control form-control-lg" placeholder="Search Users">
+                    </div>
+                    <div class="col-md-8 user-list d-flex justify-content-end align-items-center">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Reputation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-bg-primary rounded-3">New User</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Editors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Moderators</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <!-- Row 1 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3"
+                        data-bs-container="body"
+                        data-bs-toggle="popover"
+                        data-bs-placement="top"
+                        data-bs-content="Email: johndoe@gmail.com">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    <div class="user-img">
+                                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="user-info">
+                                        <h4>John Doe</h4>
+                                        <h6>Troy MI</h6>
+                                        <span class="badge bg-primary">Nature</span>
+                                        <span class="badge bg-primary">Travel</span>
+                                        <span class="badge bg-primary">Sports</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3"
+                        data-bs-container="body"
+                        data-bs-toggle="popover"
+                        data-bs-placement="top"
+                        data-bs-content="Email: lehla@gmail.com">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    <div class="user-img">
+                                        <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="user-info">
+                                        <h4>Lehla</h4>
+                                        <h6>Troy MI</h6>
+                                        <span class="badge bg-primary">Nature</span>
+                                        <span class="badge bg-primary">Travel</span>
+                                        <span class="badge bg-primary">Cook</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3"
+                        data-bs-container="body"
+                        data-bs-toggle="popover"
+                        data-bs-placement="top"
+                        data-bs-content="Email: annie@gmail.com">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    <div class="user-img">
+                                        <img src="https://randomuser.me/api/portraits/women/80.jpg" alt="" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="user-info">
+                                        <h4>Annie</h4>
+                                        <h6>Troy MI</h6>
+                                        <span class="badge bg-primary">Nature</span>
+                                        <span class="badge bg-primary">Games</span>
+                                        <span class="badge bg-primary">Sports</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3"
+                        data-bs-container="body"
+                        data-bs-toggle="popover"
+                        data-bs-placement="top"
+                        data-bs-content="Email: johndoe@gmail.com">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    <div class="user-img">
+                                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="user-info">
+                                        <h4>John Doe</h4>
+                                        <h6>Troy MI</h6>
+                                        <span class="badge bg-primary">Nature</span>
+                                        <span class="badge bg-primary">Travel</span>
+                                        <span class="badge bg-primary">Sports</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3"
+                        data-bs-container="body"
+                        data-bs-toggle="popover"
+                        data-bs-placement="top"
+                        data-bs-content="Email: lehla@gmail.com">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    <div class="user-img">
+                                        <img src="https://randomuser.me/api/portraits/women/75.jpg" alt="" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="user-info">
+                                        <h4>Lehla</h4>
+                                        <h6>Troy MI</h6>
+                                        <span class="badge bg-primary">Nature</span>
+                                        <span class="badge bg-primary">Travel</span>
+                                        <span class="badge bg-primary">Cook</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3"
+                        data-bs-container="body"
+                        data-bs-toggle="popover"
+                        data-bs-placement="top"
+                        data-bs-content="Email: annie@gmail.com">
+                            <div class="card-body">
+                                <div class="d-flex gap-3">
+                                    <div class="user-img">
+                                        <img src="https://randomuser.me/api/portraits/women/80.jpg" alt="" class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="user-info">
+                                        <h4>Annie</h4>
+                                        <h6>Troy MI</h6>
+                                        <span class="badge bg-primary">Nature</span>
+                                        <span class="badge bg-primary">Games</span>
+                                        <span class="badge bg-primary">Sports</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            document.querySelectorAll('[data-bs-theme-value]').forEach(button => {
+                button.addEventListener('click', () => {
+                    const theme = button.getAttribute('data-bs-theme-value');
+                    document.documentElement.setAttribute('data-bs-theme', theme);
+                    localStorage.setItem('theme', theme);
+                });
+            });
+
+            // Restore saved theme on page reload
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                document.documentElement.setAttribute('data-bs-theme', savedTheme);
+            }
+        </script>
+        <script>
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+            const popoverList = [...popoverTriggerList].map ((popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl));
+        </script>
+    </body>
+</html>
